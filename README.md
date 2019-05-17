@@ -2,7 +2,9 @@
 
 [Preview](https://hyunwoo.io/vue-cli3-starter/)
 
-## Firebase Configuration Setting
+# Setup
+
+## 1.Firebase Configuration Setting
 
 src/firebaseConfig.ts
 
@@ -22,7 +24,7 @@ export default firebaseConfig;
 
 ```
 
-## Project setup
+## 2.Settings
 
 ```
 npm install
@@ -69,6 +71,7 @@ npm run deploy-github
 
 ### Customize Ant Design Properties
 
+**Ant Design Theme Change**
 vue.config.js
 
 ```
@@ -91,3 +94,8 @@ module.exports = {
 ```
 
 수정 후 반드시 server를 다시 수행 하여야 한다.
+
+**Vuetify Theme Change**
+[Vuetify Theme](https://vuetifyjs.com/ko/framework/theme)
+
+**Firestore API Guide**
