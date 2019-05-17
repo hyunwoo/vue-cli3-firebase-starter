@@ -2,7 +2,6 @@
 
 [Preview](https://hyunwoo.io/vue-cli3-starter/)
 
-
 ## Project setup
 
 ```
@@ -16,9 +15,8 @@ npm run serve
 ```
 
 App running at:
-  - Local:   http://localhost:8080/vue-cli3-starter/ 
 
-
+- Local: http://localhost:8080/vue-cli3-starter/
 
 ### Compiles and minifies for production
 
@@ -32,7 +30,6 @@ npm run build
 
 1. github의 repository 이름으로 **public path**를 변경한다.
    (사용자 Root Page일 경우 제외)
-
 
 vue.config.js
 
