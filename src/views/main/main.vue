@@ -2,7 +2,11 @@
   <v-container>
     <!-- <img alt="Vue logo"
          src="../../assets/logo.png"> -->
-    <h1>Vue with Vuetify & Ant Design Vue on Firebase example</h1>
+    <h1>
+      <b>Vue</b><sup style="color:#888;font-weight:400;"><i>&nbsp;[Framework]</i></sup> +
+      Vuetify , Ant Design<sup style="color:#888;font-weight:400;"><i>&nbsp;[Style]</i></sup> +
+      Firebase<sup style="color:#888;font-weight:400;"><i>&nbsp;[Database & Auth]</i></sup>
+    </h1>
     <v-layout>
       <v-flex xs12
               pa-4
@@ -38,7 +42,7 @@
                     block>SEND</a-button>
         </div>
         <v-divider class="my-3"></v-divider>
-        <div style="height:400px; overflow-y:scroll;">
+        <div style="height:calc(100vh - 370px); overflow-y:scroll;">
           <a-list itemLayout="horizontal"
                   :dataSource="messages">
             <a-list-item slot="renderItem"
@@ -83,7 +87,7 @@
         <v-divider class="my-3 "></v-divider>
         <div>
           <v-list two-line
-                  style="height: 400px; overflow-y:scroll;"
+                  style="height: calc(100vh - 370px); overflow-y:scroll;"
                   subheader
                   class="elevation-1">
             <v-subheader>Incomming Message</v-subheader>

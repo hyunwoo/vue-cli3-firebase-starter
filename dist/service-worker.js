@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.96b2e6f731f4182354c1fb87fef00547.js"
+  "/precache-manifest.4cc0dfe091d5f6a0481d8c0a92719544.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "sonma"});
