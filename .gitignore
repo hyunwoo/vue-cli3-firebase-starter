@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-
+src/firebaseConfig.ts
 
 # local env files
 .env.local

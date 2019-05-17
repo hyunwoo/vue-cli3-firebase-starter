@@ -4,7 +4,7 @@ module.exports = {
     disableHostCheck: true
   },
 
-  publicPath: 'vue-cli3-starter',
+  publicPath: undefined,
   outputDir: undefined,
   assetsDir: undefined,
   runtimeCompiler: true,
