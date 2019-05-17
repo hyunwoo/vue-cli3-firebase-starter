@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vue-cli3-starter/precache-manifest.7e07723fff515b2b7f5dbb6ad85a95da.js"
+  "/precache-manifest.96b2e6f731f4182354c1fb87fef00547.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "sonma"});
