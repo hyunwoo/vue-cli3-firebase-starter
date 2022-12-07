@@ -38,7 +38,7 @@
     "firebase": "^6.0.2",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
-    "lint-staged": "^8.1.5",
+    "lint-staged": "^13.1.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "stylus": "^0.54.5",
